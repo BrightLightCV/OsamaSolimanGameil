@@ -3,192 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Osama Soliman Gameil - CV</title>
+    <title>Osama Soliman's CV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
+
         .container {
-            width: 80%;
-            margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
             border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 800px;
+            padding: 20px;
         }
+
         .profile {
             text-align: center;
-            margin-bottom: 30px;
         }
+
+        .profile h1 {
+            color: #4CAF50;
+        }
+
         .profile img {
+            border-radius: 50%;
             width: 150px;
             height: 150px;
-            border-radius: 50%;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+            margin-top: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            font-size: 2.5em;
-            margin: 10px 0;
-            color: #2C3E50;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            font-size: 1.8em;
-            margin-bottom: 10px;
-            color: #2980B9;
-        }
-        .section .icon {
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-        }
+
         .info {
-            display: flex;
-            align-items: center;
+            margin-top: 20px;
         }
-        .info img {
-            margin-right: 10px;
+
+        .info h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+
+        .info p {
+            line-height: 1.6;
         }
-        ul li {
-            margin: 5px 0;
-        }
-        .skills-icons {
+
+        .skills {
             display: flex;
             flex-wrap: wrap;
         }
-        .skills-icons div {
-            margin-right: 20px;
-            display: flex;
-            align-items: center;
+
+        .skills div {
+            flex: 1 1 150px;
+            margin: 10px;
+            text-align: center;
         }
-        .skills-icons img {
-            margin-right: 10px;
+
+        .skills div i {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-bottom: 5px;
+        }
+
+        .skills div p {
+            margin-top: 5px;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #e9f5e9;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .contact p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Profile Section -->
         <div class="profile">
             <h1>Osama Soliman Gameil</h1>
-            <img src="https://l.top4top.io/p_3199xr97i1.jpeg" alt="Profile Picture">
-        </div>
-        
-        <!-- Contact Information Section -->
-        <div class="section">
-            <h2>Contact Information</h2>
-            <ul>
-                <li class="info">
-                    <img class="icon" src="https://img.icons8.com/ios-filled/50/phone.png" alt="Phone Icon">
-                    <span>Phone: +201091193820 / +201009123175</span>
-                </li>
-                <li class="info">
-                    <img class="icon" src="https://img.icons8.com/ios-filled/50/email.png" alt="Email Icon">
-                    <span>Email: osama.soliman.1998@gmail.com</span>
-                </li>
-                <li class="info">
-                    <img class="icon" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="LinkedIn Icon">
-                    <span>LinkedIn: linkedin.com/in/osama-soliman-0481481ba</span>
-                </li>
-                <li class="info">
-                    <img class="icon" src="https://img.icons8.com/ios-filled/50/home.png" alt="Address Icon">
-                    <span>Address: Tanta, Alghrbia / Tenth District, Nasr City, Cairo</span>
-                </li>
-                <li class="info">
-                    <img class="icon" src="https://img.icons8.com/ios-filled/50/birthday-cake.png" alt="DOB Icon">
-                    <span>Date of Birth: 26/8/1998</span>
-                </li>
-            </ul>
-        </div>
-        
-        <!-- Professional Summary Section -->
-        <div class="section">
-            <h2>Professional Summary</h2>
-            <p>Quality and food safety engineer experienced in poultry products. Responsible for Quality Control, monitoring production, and implementing Food Safety standards. Skilled in Document Control, customer service, and staff Training.</p>
-        </div>
-
-        <!-- Work Experience Section -->
-        <div class="section">
-            <h2>Work Experience</h2>
-            <h3>Quality Assurance - MAFAZA for poultry products</h3>
-            <p>6/2022 - Present</p>
-            <ul>
-                <li>Ensured successful completion of document control system.</li>
-                <li>Updated the Quality and Food Safety system to international standards.</li>
-                <li>Handled customer complaints and provided exceptional service.</li>
-                <li>Managed the accreditation process with suppliers.</li>
-                <li>Identified areas for improvement in external audits.</li>
-                <li>Developed a withdrawal and recall plan.</li>
-                <li>Trained staff on quality assurance protocols.</li>
-                <li>Implemented new quality control measures in production.</li>
-                <li>Streamlined internal processes for better quality control.</li>
-                <li>Assessed the effectiveness of sanitation procedures.</li>
-            </ul>
-        </div>
-
-        <!-- Education Section -->
-        <div class="section">
-            <h2>Education</h2>
-            <p>Bachelor of Agricultural Science, Al-Azhar University in Cairo, 2020</p>
-        </div>
-
-        <!-- Skills Section -->
-        <div class="section">
-            <h2>Skills</h2>
-            <div class="skills-icons">
-                <div>
-                    <img class="icon" src="https://img.icons8.com/ios-filled/50/collaboration.png" alt="Teamwork Icon">
-                    <span>Teamwork & Collaboration</span>
-                </div>
-                <div>
-                    <img class="icon" src="https://img.icons8.com/ios-filled/50/time.png" alt="Time Management Icon">
-                    <span>Time Management</span>
-                </div>
-                <div>
-                    <img class="icon" src="https://img.icons8.com/ios-filled/50/risk.png" alt="Risk Management Icon">
-                    <span>Risk Management</span>
-                </div>
-                <div>
-                    <img class="icon" src="https://img.icons8.com/ios-filled/50/negotiation.png" alt="Negotiation Icon">
-                    <span>Negotiation Skills</span>
-                </div>
+            <img src="https://raw.githubusercontent.com/AhmedAmer74/AhmedAmer74/refs/heads/main/11.jpg" alt="Profile Picture">
+            <div class="contact">
+                <p><strong>Phone:</strong> +201091193820 / +201009123175</p>
+                <p><strong>Email:</strong> osama.soliman.1998@gmail.com</p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/osama-soliman-0481481ba">linkedin.com/in/osama-soliman-0481481ba</a></p>
+                <p><strong>Address:</strong> Tanta, Gharbia / Tenth District, Nasr City, Cairo</p>
+                <p><strong>Date of Birth:</strong> 26/8/1998</p>
             </div>
         </div>
 
-        <!-- Courses Section -->
-        <div class="section">
+        <div class="info">
+            <h2>Professional Summary</h2>
+            <p>Quality and food safety engineer experienced in poultry products. Responsible for Quality Control, monitoring production, and implementing Food Safety standards. Skilled in Document Control, customer service, and staff Training.</p>
+
+            <h2>Work Experience</h2>
+            <p><strong>Quality Assurance</strong> - MAFAZA for poultry products (6/2022 - Present)</p>
+            <ul>
+                <li>Ensured successful completion of document control system.</li>
+                <li>Updated the Quality and Food Safety system to international standards.</li>
+                <li>Led customer complaint handling and provided exceptional service.</li>
+                <!-- Add the remaining work experience here -->
+            </ul>
+
+            <h2>Education</h2>
+            <p><strong>Bachelor of Agricultural Science</strong> - Al-Azhar University in Cairo, 2020</p>
+
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>
+                    <i class="fas fa-users"></i>
+                    <p>Teamwork</p>
+                </div>
+                <div>
+                    <i class="fas fa-clock"></i>
+                    <p>Time Management</p>
+                </div>
+                <div>
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>Risk Management</p>
+                </div>
+                <div>
+                    <i class="fas fa-handshake"></i>
+                    <p>Negotiation Skills</p>
+                </div>
+            </div>
+
             <h2>Courses</h2>
             <ul>
                 <li>Internal Audit</li>
                 <li>BRC Global Standard for Food Safety Version 9 Awareness</li>
-                <li>ISO 22000:2018 Awareness Training (twice)</li>
-                <li>ISO 9001:2015 Awareness Training</li>
-                <li>Hazard Analysis and Critical Control Points (HACCP)</li>
-                <li>Food Defense and Food Fraud (FSSC)</li>
-                <li>Good Manufacturing Practice / Good Hygiene Practice (GMP/GHP)</li>
-                <li>Food Safety Courses</li>
-                <li>Nutrition and Food Safety at Hospital 57357</li>
+                <!-- Add the remaining courses here -->
             </ul>
-        </div>
 
-        <!-- Languages Section -->
-        <div class="section">
             <h2>Languages</h2>
-            <ul>
-                <li>Arabic: Native</li>
-                <li>English: Very Good</li>
-            </ul>
+            <p>Arabic: Native</p>
+            <p>English: Very Good</p>
         </div>
     </div>
+
+    <!-- Add Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
